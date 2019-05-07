@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Comfont - A Font Comparison Tool</title>
+  <meta name="description" content="An app that allows for font comparison">
+  <meta name="author" content="Dax Allen">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Asap|Flamenco" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div id="primary-content-wrapper">
+  
+    <main id="main-wrapper">
+      <div class="wrapper">
+        <div id="title-wrapper">
+          <h1>Comfont</h1>
+          <h2>A font comparison tool</h2>
+        </div>
+        <p>Add your text, highlight a word or multiple words, choose your font, profit</p>
+        <div id="text-to-test-wrapper" contenteditable="true">
+          You can edit this
+        </div>
+      </div>
+    </main>
+    <div id="font-selection-wrapper">
+      <div id="font-search-tools">
+        <input type="text" id="font-search" placeholder="Search fonts...">
+        <div id="filter-wrapper">
+          <label class="checkbox-container">Serif
+            <input type="checkbox" value="serif" checked>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">Sans Serif
+            <input type="checkbox" value="sans-serif" checked>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">Display
+            <input type="checkbox" value="display" checked>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">Handwriting
+            <input type="checkbox" value="handwriting" checked>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox-container">Monospace
+            <input type="checkbox" value="monospace" checked>
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div id="selected-font-wrapper">
+          <p id="selected-font"></p>
+        </div>
+      </div>
+      <div id="font-list-wrapper">
+        <ul id="font-list">
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  <footer>
+
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
