@@ -64,7 +64,7 @@ function removeClass(el, classToRemove) {
   el.classList.remove(classToRemove);
 }
 // END attempted functional programming
-apiUrl = "https://www.googleapis.com/webfonts/v1/webfonts?key=" + config.GFONTS_KEY;
+apiUrl = "https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyD5_yMUHQAjqJ6lV5ACbvrA_07eEXi9tM8";
  
  
 var getJSON = function(url, callback) {
